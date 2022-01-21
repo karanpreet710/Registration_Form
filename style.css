@@ -1,0 +1,158 @@
+body{
+    background-color: #6365d3;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-bottom:5px;
+}
+
+hr{
+    width:5%;
+    margin-left: 0px;
+    margin-top: 2px;
+    background-color: #6365d3;
+    height: 2px;
+}
+
+#main{
+    background-color:white;
+    width: 40%;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+p{
+    display:inline-block;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight:bold;
+    font-size: 13px;
+}
+
+.right{
+    margin-left: 95px;
+}
+
+p input{
+    border-radius: 3px;
+    border:1px solid gray;
+    margin-top:5px; 
+    padding:10px;
+}
+
+.select{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    width:28%;
+    font-size: 13px;
+}
+
+#sub{
+    background-color: #6365d3;
+    text-align:center;
+    width:100%;
+    color:white;
+    border-radius: 3px;
+    border:0px;
+    padding:10px;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+@media screen and (max-width:1260px) {
+    p{
+        width:35%;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    p{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:1055px) {
+    .select{
+        font-size:11px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    p{
+        width:25%;
+    }
+    label{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    #main{
+        width:50%;
+    }
+    p{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:790px) {
+    p{
+        width:25%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    #main{
+        width:70%;
+    }
+    p{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:570px) {
+    p{
+        width:25%;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .right{
+        margin:2px auto;
+    }
+    p{
+        display:block;
+        width:50%;
+        margin:2px auto;
+    }
+    .select{
+        display:block;
+        width:50%;
+        margin:2px auto;
+    }
+
+}
+
+@media  screen and (max-width:475px) {
+    p{
+        width:60%;
+    }  
+}
+
+@media  screen and (max-width:415px) {
+    p{
+        width:65%;
+    }  
+}
+
+@media  screen and (max-width:380px) {
+    p{
+        width:75%;
+    }  
+}
